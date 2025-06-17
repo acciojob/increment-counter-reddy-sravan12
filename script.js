@@ -1,1 +1,8 @@
-//your JS code here. If required.
+function increment(){
+	let pEle=document.getElementById('counter')
+	let count=Number(pEle.innerText) + 1
+
+	pEle.innerText=count
+    
+    
+}
